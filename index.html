@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ExchangeJS - May 2014</title>
+
+		<meta name="description" content="Notes for the April 2014 ExchangeJS meetup in Edmonton, Alberta">
+    <meta name="author" content="Mark Bennett <mark@burmis.ca>">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+		<link rel="stylesheet" href="css/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="bower_components/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="title" data-background="imgs/yeg-skyline.jpg">
+					<h1>ExchangeJS</h1>
+					<h3>May 2014 Notes</h3>
+        </section>
+
+				<section data-background="imgs/intros.jpg">
+					<h1>Introductions</h1>
+					<h3>Who? Favourite HTML API? Least?</h3>
+					<div class="credit">
+						Photo Credit: <a href="http://flickr.com/photos/41864721@N00/5114708857" rel="nofollow">Evan Leeson</a> via: <a href="http://imager.io/" rel="nofollow">imager.io</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/" rel="nofollow">cc</a>
+					</div>
+				</section>
+
+				<section>
+          <section data-background="imgs/js-news.png">
+            <h1>News</h1>
+          </section>
+          <section>
+            <h1><a href="http://expressjs.com/4x/api.html">Express 4.0</a></h1>
+          </section>
+					<section>
+						<h1><a href="http://ariya.ofilabs.com/2014/03/nashorn-the-new-rhino-on-the-block.html">Nashorn: JS on the JVM</a></h1>
+					</section>
+					<section>
+						<h1><a href="http://sett.ociweb.com/sett/settApr2014.html">ES6: Jump in, the water is warm!</a></h1>
+					</section>
+					<section>
+						<h1><a href="https://blog.mozilla.org/research/2014/04/17/another-big-milestone-for-servo-acid2/">Servo does Acid2</a></h1>
+					</section>
+					<section>
+						<h1><a href="http://status.modern.ie/">IE Platform Status</a></h1>
+					</section>
+					<section>
+						<h1><a href="https://www.mozilla.org/en-US/mobile/29.0/releasenotes//">Firefox 29</a></h1>
+					</section>
+					<section>
+						<h1><a href="http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html">Vagrant 1.6 w/ Docker</a></h1>
+					</section>
+          <section>
+            <h1>Other?</h1>
+          </section>
+				</section>
+
+        <section>
+          <section data-background="imgs/calendar.jpg">
+            <h1>Events</h1>
+          </section>
+          <section>
+            <h2><a href="http://www.meetup.com/startupedmonton/#upcoming">@Startup Edmonton</a></h2>
+            <ul>
+              <li><b>Mon, May 5</b> - GameCamp Edmonton Meetup</li>
+              <li><b>Thu, May 12</b> - Edmonton Python User Group</li>
+              <li><b>Tue, May 20</b> - YEGRB - Edmonton's Ruby Meetup</li>
+							<li><b>Mon, May 26</b> - Edmonton Go Meetup</li>
+              <li><b>Tue, May 27</b> - UX Edmonton Meetup</li>
+            </ul>
+          </section>
+        </section>
+
+				<section>
+          <section data-background="imgs/keyboard.jpg">
+            <h1>Jobs</h1>
+          </section>
+          <section data-background="imgs/jobber-jobs.jpg">
+            <h2><a href="http://getjobber.com/jobs"><img src="imgs/jobber-logo.png"></a></h2>
+          </section>
+
+					<section data-background="imgs/wellnext.png">
+						<h2><a href="http://wellnext.workable.com/jobs/7994"><span class="hidden">Wellnext</a></h2>
+					</section>
+
+					<section data-background="imgs/redman-logo-large.jpg">
+						<h2><a href="http://redmantech.com"><span class="hidden">Redman</a></h2>
+					</section>
+
+					<section data-background="imgs/bioware.png">
+						<h1 class="hidden"><a href="http://www.bioware.com/">BioWare</a></h1>
+					</section>
+        </section>
+
+				<section>
+          <section data-background="imgs/microphone.jpg">
+            <h1 class="light">Speakers</h1>
+          </section>
+					<section data-background="imgs/abramhindle.jpg">
+						<h1>Web Sockets</h1>
+						<h3>by <a href="http://softwareprocess.es/">Abram Hindle</a> - <a href="https://twitter.com/abramh">@abramh</a></h3>
+					</section>
+					<section data-background="imgs/">
+						<h1>ext.js</h1>
+						<h3>by <a href="#">James Lu</a></h3>
+					</section>
+					<section data-background="imgs/seanhealy.jpeg">
+						<h1>Angular.js A/B Testing</h1>
+						<h3>by <a href="http://seanhealy.ca/">Sean Healy</a> - <a href="https://twitter.com/seanhealy">@seanhealy</a></h3>
+					</section>
+        </section>
+
+				<section>
+          <section data-background="imgs/Circumpolar_AZ81.jpg">
+            <h1>Thank you</h1>
+          </section>
+          <section data-background="imgs/bioware.png">
+            <h1 class="hidden"><a href="http://www.bioware.com/">BioWare</a></h1>
+          </section>
+          <section data-background="imgs/startup-edmonton.jpg">
+            <h1 class="hidden">Startup Edmonton</h1>
+          </section>
+        </section>
+
+				<section data-background="imgs/watch.jpg">
+          <h1>Thursday June 5th</h1>
+          <h3>Ideas or talks for the next meetup?</h3>
+        </section>
+
+				<section data-background="imgs/mercer.jpg">
+					<h1 class="hidden">Mercer Tavern</h1>
+				</section>
+			</div>
+
+      <div class="overlay">
+        <div class="lower-third">
+          <img src="imgs/ejs.png">
+          <h2>Exchange JS / <a href="https://twitter.com/exchangejs">@exchangejs</h2>
+        </div>
+      </div>
+    </div>
+
+
+		<script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+		<script src="bower_components/reveal.js/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
